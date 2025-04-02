@@ -10,6 +10,7 @@ namespace Information_Management_System.Services
         public IEnumerable<Student> GetAllStudents() => _studentRepository.GetAllStudents();
         public Student GetStudentById(int id) => _studentRepository.GetStudentById(id);
         public void AddStudent(Student student) => _studentRepository.AddStudent(student);
+
         public void UpdateStudent(Student student) => _studentRepository.UpdateStudent(student);
         public void DeleteStudent(int id) => _studentRepository.DeleteStudent(id);
     }

@@ -1,0 +1,9 @@
+C:\Users\DELL\source\repos\Group-10-SE06304\group11SE06304\group11SE06304\obj\Debug\net8.0\group11SE06304.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\Group-10-SE06304\group11SE06304\group11SE06304\obj\Debug\net8.0\group11SE06304.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\source\repos\Group-10-SE06304\group11SE06304\group11SE06304\obj\Debug\net8.0\group11SE06304.AssemblyInfoInputs.cache
+C:\Users\DELL\source\repos\Group-10-SE06304\group11SE06304\group11SE06304\obj\Debug\net8.0\group11SE06304.AssemblyInfo.cs
+C:\Users\DELL\source\repos\Group-10-SE06304\group11SE06304\group11SE06304\obj\Debug\net8.0\group11SE06304.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\Group-10-SE06304\group11SE06304\group11SE06304\obj\Debug\net8.0\group11SE06304.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\DELL\source\repos\Group-10-SE06304\group11SE06304\group11SE06304\obj\Debug\net8.0\group11SE06304.RazorAssemblyInfo.cache
+C:\Users\DELL\source\repos\Group-10-SE06304\group11SE06304\group11SE06304\obj\Debug\net8.0\group11SE06304.RazorAssemblyInfo.cs
+C:\Users\DELL\source\repos\Group-10-SE06304\group11SE06304\group11SE06304\obj\Debug\net8.0\group11SE06304.sourcelink.json
