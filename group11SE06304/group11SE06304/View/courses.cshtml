@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Courses</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Manage Courses</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="register.html">Register Student</a></li>
+                <li><a href="courses.html">Manage Courses</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Available Courses</h2>
+        <ul id="courseList"></ul>
+    </main>
+
+    <script>
+        fetch('/api/courses')
+            .then(response => response.json())
+            .then(data => {
+                const courseList = document.getElementById('courseList');
+                data.forEach(course => {
+                    const li = document.createElement('li');
+                    li.textContent = `${course.name} (${course.code})`;
+                    courseList.appendChild(li);
+                });
+            });
+    </script>
+</body>
+</html>
