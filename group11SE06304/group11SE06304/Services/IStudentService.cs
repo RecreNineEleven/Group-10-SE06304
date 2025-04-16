@@ -2,7 +2,7 @@
 
 namespace Information_Management_System.Services
 {
-    public class IStudentService
+    public interface IStudentService
     {
         IEnumerable<Student> GetAllStudents();
         Student GetStudentById(int id);

@@ -2,7 +2,7 @@
 
 namespace Information_Management_System.Repositories
 {
-    public class IStudentRepository
+    public interface IStudentRepository
     {
         IEnumerable<Student> GetAllStudents();
         Student GetStudentById(int id);

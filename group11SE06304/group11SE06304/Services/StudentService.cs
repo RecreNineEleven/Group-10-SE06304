@@ -3,7 +3,7 @@ using Information_Management_System.Repositories;
 
 namespace Information_Management_System.Services
 {
-    public class StudentService
+    public class StudentService : IStudentService
     {
         private readonly IStudentRepository _studentRepository;
         public StudentService(IStudentRepository studentRepository) { _studentRepository = studentRepository; }

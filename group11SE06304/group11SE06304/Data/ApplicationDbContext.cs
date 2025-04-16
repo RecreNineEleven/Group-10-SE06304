@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Information_Management_System.Data
 {
-    public class ApplicationDbContext
+    public class ApplicationDbContext : DbContext
     {
         public DbSet<Student> Students { get; set; }
         public DbSet<Course> Courses { get; set; }

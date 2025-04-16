@@ -9,9 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer("se06304_nhom11\r\ntf4M7GWyf5RRbzhY"));
 builder.Services.AddScoped<IStudentRepository, StudentRepository>();
-
 builder.Services.AddScoped<IStudentService, StudentService>();
-
 
 var app = builder.Build();
 
